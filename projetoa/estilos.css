@@ -1,0 +1,187 @@
+/*Definições de estilo para o corpo da página */
+body{
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+background-color: aliceblue;
+}
+/*Estilo para cabeçalhos */
+h2{
+    color: black;
+    margin-bottom: 20px;
+}
+h3{
+    margin: 10px;
+    color: aqua;
+}
+/*Estilo para links */
+a{
+    color: blue;
+    text-decoration: none;
+}
+.fonte-family {
+font-family: 'Courier New',
+}
+
+.fonte-tamanho {
+font-size: 20px
+}
+
+.fonte-peso {
+font-weight: 600;
+}
+.fonte-estilo {
+font-style: italic;
+}
+.texto-cor {
+color: aqua;
+}
+.texto-centralizado{
+text-align: center;
+}
+.texto-sublinhado{
+text-decoration: underline;
+}
+.texto-maiusculas{
+text-transform: uppercase;
+}
+.sombra-texto{
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.escapamento-letras{
+letter-spacing: 1.5px;
+}
+.escapamento-palavras{
+word-spacing: 14px;
+}
+/*Isto é um comentario simples*/
+/*
+Este é um comentario 
+de multiplas linhas 
+em CSS
+ */
+ ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+.destaque {
+background-color: rgb(213, 228, 11);
+font-weight: bold;
+}
+.texto-grande {
+font-size: 24px;
+}
+.texto-azul{
+color: blue;
+}
+#cabecalho-principal{
+background-color: black;
+color: antiquewhite;
+padding: 20px;
+text-align: center;
+}
+/*Seletor universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+input[type="text" ] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+a[href="http" ] {
+color: red;
+}
+div[data-status="ativo"] {
+background-color: green;
+}
+/*Especificidade (0,0,0,1) */
+h4{
+    color: red;
+}
+/*Especificidade (0,0,1,0) */
+.special-header{
+color: blue;
+}
+.texto-azul-important{
+color: red;
+}
+.texto-azul{
+color: blue;
+}
+.paragrafo-absolut{
+font-size: 16px;
+}
+.paragrafo-ponto{
+font-size: 12pt;
+}
+.caixa-polegada{
+    width: 2in;
+    height: 1in;
+    border: 1px solid black;
+}
+.caixa-centimetro{
+    width: 5cm;
+    height: 2cm;
+    border: 1px solid red;
+}
+
+.caixa-milimetro{
+    width: 50mm;
+    height: 20mm;
+    border: 1px solid green;
+}
+.container{
+    font-size: 20px; /*tamanho da fonte para o elemento pai */
+}
+.texto-em{
+    font-size: 1.5cm; /* 150% do tamanho da fonte do elemento pai,ou seja 30%px */
+}
+html{
+    font-size: 16px; /*define o tamanho da fonte padrão para a pagina*/
+}
+.texto-rem {
+    font-size: 2rem; /*200% do tamanho da fonte do elemento raiz, ou seja,32px*/
+}
+.container {
+    width: 500px; /* largura do elemento pai */
+}
+.caixa-porcentual{
+    width: 50%; /*50% da largura do seu elemento pai,ou seja,250px */
+    background-color: teal;
+}
+.div-vh{
+    height: 58vh;/*58% da altura da viewport */
+    background-color: lightblue;
+}
+
+.div-vw{
+    color:rgb(255, 0, 0) ;/*vermelho*/
+    background-color:rgb(0, 0, 255) /*azul com 50% de opacidade*/
+}
+.cor-rbg {
+    height: 58vh;/*58% da largura da viewport */
+    background-color: antiquewhite;
+}
+
+.div-vh{
+    height: 58vh;/*58% da altura da viewport */
+    background-color: antiquewhite;
+}
+
+.cor-hex {
+   color: rgb(9, 128, 78);/*verde*/
+    background-color: rgb(153, 5, 5);/*vermelho*/
+}
+
+.cor-hsl{
+    color: rgb(7, 66, 5);/*verde escuro*/
+    background-color: rgb(6, 7, 59); /*azul com 30% de opacidade*/
+}
+.fundo-imagem{
+    background-image: url("img,img4.jpg");
+    height: 300px;
+    width: 100%;
+}
